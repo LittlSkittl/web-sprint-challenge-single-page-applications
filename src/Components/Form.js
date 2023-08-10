@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Form = (props) => {
   const { change, submit, values, errors } = props;  
-  // console.log(values);
+  console.log(errors.name);
 
   const onChange = (evt) => {
     const { name, value, type, checked } = evt.target;
@@ -31,6 +31,7 @@ const Form = (props) => {
         <section className="name-section">
           <label>
             <h3>Enter Your Name</h3>
+            <p>{errors.name}</p>
             <input
               id="name-input"
               type="text"
@@ -43,6 +44,7 @@ const Form = (props) => {
 
         <section className="size-section">
           <h3>Select a size</h3>
+          <p>{errors.size}</p>
           <select id="size-dropdown" onChange={onChange} name="size">
             <option value="">Select a size</option>
             <option value="small">Small</option>
