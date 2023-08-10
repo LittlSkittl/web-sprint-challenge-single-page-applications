@@ -40,7 +40,7 @@ const App = () => {
   }
 
   const handleSubmit = () => {
-    axios.post('https://reqres.in/api/users', values)
+    axios.post('https://reqres.in/api/orders', values)
       .then(res => {
         console.log(res.data);
         setPizzas([res.data, ...pizzas]);

@@ -104,7 +104,8 @@ const Form = (props) => {
         <section className="special-section">
           <label>
             <h3>Anything you would like us to know?</h3>
-            <textarea
+            <input
+              id="special-text"
               className="special"
               type="text"
               name="specialInstructions"
