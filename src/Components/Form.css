@@ -1,0 +1,91 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFF1D7;
+  color: #BB3E00;
+  width: 100vw;
+  padding: 1.5rem;
+}
+
+.pry-btn {
+  padding: .5rem;
+  width: 7.5rem;
+  background: #BB3E00;
+  border: none;
+  cursor: pointer;
+  margin: 0 1rem 0 0;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  color: #FFF1D7;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.header-section .catch-line {
+  font-size: 1.3rem;
+}
+
+.name-section {
+  background-color: #BB3E00;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  text-align: center;
+}
+
+.name-section input {
+  border-radius: 5px;
+  border: none;
+  padding: .5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  background: #FFF1D7;
+  color: #BB3E00;
+}
+
+.name-section input:focus {
+  outline: none;
+}
+
+.name-section label {
+  color: #FFF1D7;
+  padding: .5rem;
+}
+
+.size-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background-color: #FFF1D7;
+}
+
+.size-section select {
+  padding: .7rem;
+  border: none;
+  background-color: #BB3E00;
+  color: #FFF1D7;
+  margin-top: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.size-section select option {
+  font-size: 1rem;
+}
+
+.size-section h3 {
+  color: #BB3E00;
+  font-size: 1.5rem;
+}
