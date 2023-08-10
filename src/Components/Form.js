@@ -112,8 +112,10 @@ const Form = (props) => {
               onChange={onChange}
             />
           </label>
+          <input type="submit" value='Submit Your Pizza!'/>
         </section>
-        <input type="submit" value='Submit Your Pizza!'/>
+
+        
       </form>
     </div>
   );

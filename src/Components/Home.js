@@ -6,7 +6,7 @@ const Home = (props) => {
       <section className="nav-container">
         <h1 className="header">Isaac's Pizzeria</h1>
         <nav className="nav-bar">
-          <Link to="pizza" className="pry-btn">
+          <Link id="order-pizza" to="pizza" className="pry-btn">
             Order Pizza
           </Link>
         </nav>
