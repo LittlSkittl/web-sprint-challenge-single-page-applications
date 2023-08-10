@@ -7,7 +7,7 @@ const Form = (props) => {
 
   const onChange = (evt) => {
     const { name, value, type, checked } = evt.target;
-    const typeToUse = type === "checkbox" ? checked : value;
+    const typeToUse = type === "checkbox" ? checked : value ;
     change(name, typeToUse);
   };
 
