@@ -2,7 +2,7 @@ import "./Form.css";
 import { Link } from "react-router-dom";
 
 const Form = (props) => {
-  const { change, submit, values } = props;
+  const { change, submit, values, errors } = props;  
   // console.log(values);
 
   const onChange = (evt) => {
@@ -113,7 +113,7 @@ const Form = (props) => {
               onChange={onChange}
             />
           </label>
-          <input type="submit" value='Submit Your Pizza!'/>
+          <input id="order-button" type="submit" value='Submit Your Pizza!'/>
         </section>
 
         
